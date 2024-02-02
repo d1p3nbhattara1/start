@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,400&display=swap');
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+
+body{
+background-color: #4fc3fd;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    border: solid 3px black;
+    box-shadow:1px 1px 1px black ;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    width: 40% ;
+    margin-left: 400px;
+    height: 50%;
+}
+.main_body{
+    background-color: antiquewhite;
+
+
+}
+#rock , #scissor,#paper{
+    padding: 16px;
+    font-size: 28px;
+    margin: 20px;
+}
