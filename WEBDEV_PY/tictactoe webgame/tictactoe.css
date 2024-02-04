@@ -1,0 +1,35 @@
+body{
+    background-color: #081b29;
+    color: whitesmoke;
+}
+.container{
+    padding: 16px;
+    margin-left:300px;
+    background: linear-gradient(to bottom , red , rgb(73, 73, 192) );
+    width:50%;
+    height: 50%;
+    margin-top: 150px;
+}
+.container-content{
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.game-buttons{
+    padding: 16px;
+    margin: 16px;
+    display: grid;
+    grid-template-columns:auto auto auto ;
+
+}
+button{
+text-align: center;
+    padding: 40px;
+border: 3 px solid black;
+}
+button:hover{
+    background-color: greenyellow;
+}
